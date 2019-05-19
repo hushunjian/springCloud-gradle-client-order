@@ -17,7 +17,7 @@ public class SwaggerConfig {
     public Docket documentation(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.hushunjian.springcloud.client.user.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.hushunjian.springcloud.client.order.controller"))
                 .build()
                 .protocols(new HashSet<>(Lists.newArrayList("http")))
                 .pathMapping("/")

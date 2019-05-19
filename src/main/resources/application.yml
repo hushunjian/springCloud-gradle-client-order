@@ -14,3 +14,6 @@ spring:
     url: jdbc:mysql://localhost:3306/macgradle?serverTimezne=UTC&useUnicode=true&characterEncoding=utf-8
     username: root
     password: 950420HSJ
+ribbon:
+  eureka:
+    enabled: true
